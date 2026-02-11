@@ -1,37 +1,44 @@
 # DS-4002-Project1
 UVA DS 4002 Group 4 - Project 1 (text data)
+
 ## Software and Platform
 Type(s) of software used: GitHub, bag-of-words model
+
 Necessary add-on packages: pandas, re, nltk, from nltk.corpus import stopwords, from nltk.stem import WordNetLemmatizer
+
 The platform: Windows/ Mac
 
 ## Map of Documentation
 
 ```
-UVA DS 4002 Group 4 - Project 1  (text data)/
+UVA_DS_4002_Group_4_Project_1_text_data/
 │
 ├── DATA/
-│   ├── raw/
-│   │   └── raw_data.csv
-│   └── processed/
-│       └── cleaned_data.csv
+│   ├── News_Uncleaned.csv
+│   ├── News_Cleaned.csv
+│   ├── Opinion_Uncleaned.csv
+│   └── Opinion_Cleaned.csv
 │
 ├── OUTPUT/
-│   ├── figures/
-│   │   └── plot1.png
-│   └── tables/
-│       └── summary_table.csv
+│   ├── figures_news_top10.png
+│   ├── opinion_top10.png
+│   └── word_frequency_table.csv
 │
 ├── SCRIPTS/
-│   ├── data_cleaning.py
-│   ├── analysis.py
-│   └── visualization.py
+│   ├── Analysis.ipynb
+│   ├── Cleaning.ipynb
+│   ├── extract_articles.py
+│   └── mi2ds4002.py
 │
 ├── LICENSE
-│
 ├── README.md
 └── requirements.txt
+
 ```
 
 ## Instructions for Reproducing Results
-In this section, you should give explicit step-by-step instructions to reproduce the Results of your study. These instructions should be written in straightforward plain English, but they must be concise, but detailed and precise enough, to make it possible for an interested user to reproduce your results without much difficulty.
+Clone the GitHub repository and download the csv files containing the dataset. Run the Cleaning.ipynb and Analysis.ipynb and jupyter notebook scripts found within the SCRIPTS folder. Compare the generated results with the results within the OUTPUT folder. Our results (in the form of bar charts) reveal…
+- The top 10 most frequent words in news article titles are: student, uva, committee, university, council, board, discus, honor, new, archive
+- The top 10 most frequent words in opinion article titles are: editorial, uva, student, parting, shot, virginia, must, letter, university, kurtzweil
+- A two column chart containing the numeric frequency counts of the 26 most common words in the News and Opinion articles. 
+
