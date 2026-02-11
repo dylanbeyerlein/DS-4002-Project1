@@ -40,5 +40,9 @@ UVA_DS_4002_Group_4_Project_1_text_data/
 Clone the GitHub repository and download the csv files containing the dataset. Run the Cleaning.ipynb and Analysis.ipynb and jupyter notebook scripts found within the SCRIPTS folder. Compare the generated results with the results within the OUTPUT folder. Our results (in the form of bar charts) reveal…
 - The top 10 most frequent words in news article titles are: student, uva, committee, university, council, board, discus, honor, new, archive
 - The top 10 most frequent words in opinion article titles are: editorial, uva, student, parting, shot, virginia, must, letter, university, kurtzweil
-- A two column chart containing the numeric frequency counts of the 26 most common words in the News and Opinion articles. 
+- A two column chart containing the numeric frequency counts of the 26 most common words in the News and Opinion articles.
+- Below are our statistics:
+   - Chi-square statistic: 438.90
+   - Degrees of freedom: 24
+   - P-value: 0.000000
 
