@@ -2,7 +2,7 @@
 UVA DS 4002 Group 4 - Project 1 (text data)
 
 ## Software and Platform
-Type(s) of software used: GitHub, bag-of-words model
+Type(s) of software used: GitHub, bag-of-words model [1]
 
 Necessary add-on packages: pandas, re, nltk, from nltk.corpus import stopwords, from nltk.stem import WordNetLemmatizer
 
@@ -46,3 +46,6 @@ Clone the GitHub repository and download the csv files containing the dataset. R
    - Degrees of freedom: 24
    - P-value: 0.000000
 
+
+## References
+[1] 262588213843476. “NLTK’s List of English Stopwords.” Gist, 27 Aug. 2010, gist.github.com/sebleier/554280.
